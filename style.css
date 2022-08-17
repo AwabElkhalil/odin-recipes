@@ -1,0 +1,29 @@
+.odin-header{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,.7)),
+    url("./images/odin.jpg");
+    background-size: cover;
+    height: 600px;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.header-title{
+    bottom: 0;
+    position: absolute;
+    color: white;
+    font-size: 64px;
+}
+
+.recipe{
+    color: white;
+    background-color: lightsalmon;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius:0px,0px,3px,3px;
+}
+
+.recipe:hover {
+    color: black;
+    background-color: salmon;
+}
